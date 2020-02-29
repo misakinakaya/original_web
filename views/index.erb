@@ -1,0 +1,27 @@
+<div>
+ <div>
+	<div　class="new todo">
+		<table>
+			<thead>
+		  <tr>
+			<%# <th>タイトル</th>
+			<th>日付</th>
+			<th>投稿文<th> %>
+		</tr>
+		</thead>
+		<tbody>
+		<% @tasks.each do |task|%>
+<tr>
+<td><%= task.title %></td>
+<td><%= task.due_date %></td>
+<td><%= task.sentence %></td>
+</tr>
+<% end %>
+<div class="center-content" >
+<th><a href="/tasks/new" class="sinki">新規投稿</a></th>
+</div>
+</tbody>
+</table>
+</div>
+</div>
+</div>

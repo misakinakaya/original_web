@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+h1{
+
+}
+h2{
+
+}
+h3{
+  font-size:15px;
+}
+a{
+  text-decoration: none;
+}
+.title{
+  float:left;
+}
+.title-nav{
+  margin: 0 auto;
+}
+
+.center-content {
+   justify-content: center;
+   align-content: center;
+}
+
+.sinki {
+  text-align: center;
+}
